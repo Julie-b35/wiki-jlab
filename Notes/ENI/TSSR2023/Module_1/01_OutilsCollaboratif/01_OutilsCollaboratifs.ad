@@ -1,0 +1,125 @@
+=  01 Outils Collaboratifs
+
+ifdef::imagesdir[]
+:imagesdir: {imagesdir}/01
+endif::[]
+
+ifndef::imagesdir[]
+:imagesdir: ../../../../../images/notes/eni/TSSR2023/modules/01
+endif::[]
+
+//{imagesdir}
+
+Formateur : Cédric RICHEZ
+
+== Vocabulaire
+
+* Software as a Service (*SaaS*) : 
+****
+(_Logiciel en tant que Service_), modèle d'exploitation commercial qui signifie que les logiciels sont installé sur des serveurs. les clients paye généralement un abonnement.
+En cours de conceptions.
+****
+* *Un tenant*:
+****
+C'est l'ensemble des services de *votre* abonnement dans Microsoft 365 associé à votre domaine pour *votre* entreprise.
+****
+* *Microsoft Exchange Server* :
+****
+est un groupware pour serveur de messagerie électronique.
+****
+* *groupware* : 
+****
+Un groupware, collecticiel, ou encore logiciel de groupe, est un *type de logiciel qui permet à un groupe de personnes de partager des documents à distance pour favoriser le travail collaboratif.*
+****
+- link:https://www.primx.eu/fr/abc-chiffrement/chiffrement-vs-cryptage-quelles-differences/#:~:text=Le%20terme%20de%20cryptage%20et,revient%20%C3%A0%20d%C3%A9coder%20sans%20cl%C3%A9.[**Cryptage vs Chiffrage**]
+- **DG** : Directeur Général
+- link:https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP[**Code HTTP**]
+
+== Objectif
+
+* Expliquer l'utilisation des outils de communication asynchrone (messagerie électronique...)
+* Expliquer l'utilisation des outils de communication synchrone (Teams, Onedrive)
+* Expliquer l'utilisation d'un outil bureautique collaboratif
+* Rédiger et transmettre des notes, consignes, et procédures en tenant compte des besoins du destinataire.
+
+== Concurrent de Microsoft 365
+
+- https://www.zoho.com/fr/?utm_source=zohocorp&utm_medium=referral&utm_campaign=internal[ZOHO]
+- https://www.hyperoffice.com/[HyperOffice]
+- https://workspace.google.com/[G-Suite]
+- https://aws.amazon.com/fr/?nc2=h_lg[Amazon Web Services]
+- https://www.ibm.com/fr-fr/cloud[IBM Cloud]
+
+== Qu'est ce que Microsoft 365
+
+- Offre Cloud : Multiple applications (Exchange, SharePoint, Office...)
+- Multi-Plateforme
+- S'adresse aux particuliers et aux entreprises
+- Moins de serveurs sur site.
+- Quelques chiffres:
+  - Microsoft Teams passe la barre des 75 millions d'utilisateur actifs par jour fin mai 2020 (lié au Covid.)
+  - Quatre datacenters en France
+
+== Les éléments de base de Microsoft 365
+
+image::01_base_microsoft_365.png[element_base_microsoft_365]
+
+Comme indiqué les différent logiciel font partie d'Azure AD
+
+== Les licences de Microsoft 365
+
+image::01_licences_m365.png[licence_m365]
+
+== SharePoint Online
+
+SharePoint Online est le noyau central.
+
+== Création d'un Tenant Microsoft 365
+
+1. Sélectionner un plan. Ex : Famille, A1, E5, F3
+2. Fournissez une adresse mail valide ex: prenom.nomannee@campus-eni.fr
+3. Entrer les données de votre entreprise. Ex : nom et nombre de salarié.
+4. Choisissez le nom de votre Tenant. Ex: admin@monEntreprise.onmicrosoft.com
+5. Valider
+
+== TEAMS
+
+NOTE: En cours d'implémentations
+
+== Excel
+
+=== Raccourci
+
+- *Alt+=* : Fait appel à la fonction Somme automatique.
+
+=== Fonctions
+
+- *ALEA.ENTRE.BORNES(min; max)* : Créer un nombre aléatoire entre deux chiffre ex: entre 0 et 10 -> ALEA.ENTRE.BORNES(0; 10)
+
+== Outlook
+
+=== Protocole
+image::02_protocole_mail.png[list_protocole_port]
+- *SMTP* :
+- *DEF* : Protocole de soumission de mail
+- *Protocole Gestion de mail* : IMAP ou POP, ActiveSync, ou HTTPS, MAPI, etc
+
+|===
+|**Liste protocole avec ports par défaut** | **Autodiscover** | **Test Autodiscover**
+
+a|image::02_protocole_mail_1.png[autodiscover] a| image::02_protocole_mail_2.png[test autodiscover] a|image::02_protocole_mail_3.png['bind_outlook']
+|===
+
+
+
+=== Les port TLS/SSL chiffre les donnée mais n'est pas du cryptage
+
+=== Divers
+
+- Il est possible de transformer un mail en rendez-vous en l'envoyant dans le calendrier.
+- Les règles sont transférable
+
+== Dépannage outlook
+
+- adresse de test : https://testconnectivity.microsoft.com/tests/o365[Test mail]
+- Mode sans échec *Win+R* : *outlook.exe /safe*

@@ -1,0 +1,30 @@
+ifdef::toc[]
+= Encapsulation - Décapsulation
+:back_imagesdir: {imagesdir}
+:imagesdir: {imagesdir}/Trame
+endif::[]
+
+ifndef::toc[]
+= Encapsulation - Décapsulation
+Nom de l'auteur <julie.brindejont@jlab.ovh>
+v1.0, 2023-04-08
+:toc: left
+:toc-title: Sommaire
+:imagesdir: ../../../../images/notes/training-eni/BaseReseau/ModeleOSI/Trame
+endif::[]
+
+.Comment envoyer une trame
+****
+Il faut imaginer que la couche *session* d'un ordinateur discute avec la couche *session* d'un autre ordinateur, la couche *TCP* avec la couche *TCP* de l'autre, etc.
+
+Ce qui fait que si une *Application* d'un ordinateur veut dialoguer avec le réseau pour envoyer quelque chose, elle va s'adresser à la couche du dessous (*Présentation*).
+La couche *Présentation* traite les donnée, puis l'envoie à la couche du dessous, etc..., jusqu'à la couche *physique* (la carte).
+
+*L'application* génère des donnée, qui l'envoie au protocole *TCP/IP* qui l'envoie à la carte réseau qui l'envoie sur la câble et à l'autre bout une autre carte réseau partie physique qui va réceptionner cette trame pour ensuite la traité qui va envoyer les donnée au protocole *TCP/IP* qui l'envoie à l'application.
+****
+
+.Encapsulation - Décapsulation de la trame
+image::Encapsulation.png[]
+
+
+:imagesdir: {back_imagesdir}

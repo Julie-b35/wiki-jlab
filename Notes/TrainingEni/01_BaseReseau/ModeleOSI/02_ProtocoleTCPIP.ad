@@ -1,0 +1,70 @@
+= Protocole TCP/IP
+
+ifdef::imagesdir[]
+:imagesdir: {imagesdir}/Intro
+endif::[]
+
+ifndef::imagesdir[]
+:imagesdir: ../../../../images/notes/training-eni/BaseReseau/ModeleOSI/Intro
+endif::[]
+
+//{imagesdir}
+
+
+NOTE: Le protocole TCP/IP c'est un modèle en 4 couche.
+
+.Modèle TCP/IP
+|===
+h|Nom de la couche h| Utilité
+|**Haute (Applicative)** | Les différente application qu'on fait tourné sur le réseau.
+|**Transport**| Le but de cette couche est de garantir q'une trame arrive à destination. Si elle n'y arrive pas ont va la réémettre autant de fois que nécessaire. Attendre un accusé réception de cette trame.
+|**Réseau** | Le but de cette couche concerne l'adressage des différent site. Il y aura une notion d'adresse au niveau de cette couche.
+|**Physique** | Elle correspond au matériel, ex: une carte réseau
+|===
+
+.Modèle `*TCP/IP*`
+image::03-ModelTCPIP.png[Module TCP/IP]
+
+.Naissance Modèle OSI
+****
+Différentes organismes se sont mis à normaliser l'utilisation des réseau, ce qui à donnée naissance au modèle OSI qui est très proche du module TCP/IP.
+****
+
+.Modèle `*OSI*`
+image::04-Modele_OSI.png[Modèle OSI]
+
+== Normes & Protocoles:
+
+Suivant le modèle *OSI*
+
+=== Sur la couches Physique et liaison
+
+* La link:https://fr.wikipedia.org/wiki/IEEE_802[norme *802*] au niveau de la couche liaison & physique avec toutes une suite de normes *802*:
+** La couche supérieur *802.2* (_LLC_ : **L**ogical **L**ink **C**ontrol)
+** La norme *802.3* pour le matériel Ethernet
+** La norme *802.11* concernant la wifi
+** La norme *802.15* pour le Bluetooth
+
+=== Sur la couche Réseau et Transport
+
+* La link:https://fr.wikipedia.org/wiki/Suite_des_protocoles_Internet[suite de protocoles *TCP/IP*]:
+** Le protocole *IP* au niveau de la couche Réseau :
+*** Sert à l'adressage des différents éléments interconnecté.
+** Le protocole *TCP* au niveau de la couche Transport:
+*** Le protocole *TCP/IP* est un protocole dis *_fiable_*, si vous envoyez une trame elle sera réceptionner, si il faut l'envoyer 10 fois, ont l'enverras 10 fois jusqu'à attendre un accusé de réception.
+*** Le protocole *UDP* est un protocole dis *_non fiable_*, si la trame est réceptionné tant mieux, si elle n'est pas réceptionné, il n'y aura pas de réémission.
+** Le protocole *ICMP* sur la couche réseau:
+*** Elle sert pour la commande `*ping*`  qui sert à tester la connexion entre deux éléments.
+* Des ancien protocoles (obsolète aujourd'hui)
+** Le protocole *IPX/SPX* qui était sur link:https://fr.wikipedia.org/wiki/Novell_NetWare[Novell NetWare]
+** Le protocole de Microsoft link:https://fr.wikipedia.org/wiki/NetBEUI[*NetBeui*] venu avec Windows PowerGroup qui a disparu depuis une dizaine d'année, relativement simple à paramétrer puisque il n'y avais rien à faire.
+
+
+=== Sur la couche Session
+
+* Les *socket TCP* ou *socket UDP*:
+** sa correspond à une @IP + n° port
+* Sois *Netbios* :
+** L'interface *Netbios* par l'accès à 1 partage : 
+*** Chemin *UNC* : \\Serveur\partage (Sur windows ou SMB)
+

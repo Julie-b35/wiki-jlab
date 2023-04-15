@@ -1,0 +1,29 @@
+ifdef::toc[]
+= Modèle OSI - Interconnexion de réseaux
+:back_imagesdir: {imagesdir}
+:imagesdir: {imagesdir}/ModeleOSI
+endif::[]
+
+ifndef::toc[]
+= Modèle OSI - Interconnexion de réseaux
+Nom de l'auteur <julie.brindejont@jlab.ovh>
+v1.0, 2023-04-08
+:toc: left
+:toc-title: Sommaire
+:imagesdir: ../../../../images/notes/training-eni/BaseReseau/ModeleOSI
+endif::[]
+:leveloffset: +1
+
+include::01_HistoriqueReseaux.ad[]
+
+include::02_ProtocoleTCPIP.ad[]
+
+include::03_EncapsulationDecapsulation.ad[]
+
+include::04_DemoWireShark.ad[]
+
+include::05_PontsCommutateurRouteurPasserelle.ad[]
+
+:leveloffset: -1
+
+:imagesdir: {back_imagesdir}

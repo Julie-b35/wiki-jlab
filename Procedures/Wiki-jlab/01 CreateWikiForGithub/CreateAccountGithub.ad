@@ -1,0 +1,80 @@
+<<<<
+
+:imagesdir: ../../../images/procedures/CreateAccountGitHub/
+
+
+IMPORTANT: Vous devez avoir une adresse-email valide.
+
+== Création du Compte wiki-jb
+
+=== 1 Page accueil Github
+Sur le site de github créer le compte wiki-jb
+
+image::01-github-startPage.png[writeMail, 400,400]
+
+1. allez sur le site : link:https://github.com/[].
+2. Cliquer sur *Sing Up*
+
+<<haut>>
+
+=== 2 indique le mail
+
+image::02-github-writeMail.png[400,400]
+Une fois écris, cliquer sur *Continue*
+
+<<haut>>
+
+=== 3 indique votre mot de passe.
+
+image::03-github-writePassword.png[writePassword, 400,400]
+Une fois écris, cliquer sur *Continue*
+
+<<haut>>
+
+=== 4 Écrire une nom d'utilisateur
+
+image::04-github-writeUsername.png[writeUsername, 400,400]
+Une fois écris, cliquer sur *Continue*
+
+<<haut>>
+
+=== 5 Choisissez.
+
+Choisissez si vous voulez recevoir des information sur le produit ou pas.
+
+image::05-github-choicePub.png[choicePub, 400,400]
+
+* *y* pour Oui
+* *n* pour Non
+
+Une fois écris, cliquer sur *Continue*
+<<haut>>
+
+=== 6 Captcha
+
+Faire le processus de vérification si vous êtes un robot:
+Cliquer sur Vérifier
+
+image::06 - github-verif.png[github-verif, 400,400]
+
+<<haut>>
+
+=== 7 Contrôle Mail
+
+Une fois le processus de vérification terminé, cliquer sur *Create Account*
+
+image::07-github-CreateAccount.png[CreateAccount, 400,400]
+
+Puis, contrôler votre boîte mail et inscrivez le code reçus.
+
+image::08-github-CheckMail.png[CheckMail, 400,400]
+
+<<haut>>
+
+=== 8 Fin
+
+Le compte est crée, si vous le souhaiter vous pouvez personnalisez Github, mois je l'est ignorer en cliquant sur *skip personalization*
+
+image::09-github-ignorePersonalisation.png[ignorePersonalisation, 400,400]
+
+<<haut>>

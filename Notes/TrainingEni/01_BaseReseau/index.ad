@@ -1,0 +1,24 @@
+ifdef::toc[]
+= Base du réseau
+:back_imagesdir: {imagesdir}
+:imagesdir: {imagesdir}/BaseReseau
+endif::[]
+
+ifndef::toc[]
+= Base du réseau
+Nom de l'auteur <julie.brindejont@jlab.ovh>
+v1.0, 2023-04-08
+:toc: left
+:toc-title: Sommaire
+:imagesdir: ../../../images/notes/training-eni/BaseReseau
+endif::[]
+
+:leveloffset: +1
+
+include::ModeleOSI/index.ad[]
+
+include::AdressageIP/index.ad[]
+
+:leveloffset: -1
+
+:imagesdir: {back_imagesdir}

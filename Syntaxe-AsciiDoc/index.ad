@@ -1,0 +1,7 @@
+= Syntaxe sur AsciiDoc
+
+:leveloffset: +1
+
+include::01-ex-block.ad[]
+
+:leveloffset: -1

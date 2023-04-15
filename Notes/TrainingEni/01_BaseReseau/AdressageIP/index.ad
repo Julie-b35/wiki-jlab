@@ -1,0 +1,22 @@
+ifdef::toc[]
+= L'adressage IP
+:back_imagesdir: {imagesdir}
+:imagesdir: {imagesdir}/AdressageIP
+endif::[]
+
+ifndef::toc[]
+= L'adressage IP
+Nom de l'auteur <julie.brindejont@jlab.ovh>
+v1.0, 2023-04-08
+:toc: left
+:toc-title: Sommaire
+:imagesdir: ../../../../images/notes/training-eni/BaseReseau/AdressageIP
+endif::[]
+:leveloffset: +1
+
+
+
+
+:leveloffset: -1
+
+:imagesdir: {back_imagesdir}

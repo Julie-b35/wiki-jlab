@@ -1,0 +1,26 @@
+= Wiki de Julie[[Accueil]]
+Nom de l'auteur <julie.brindejont@jlab.ovh>
+v1.0, 2023-04-08
+:docinfo: shared
+:docinfodir: docinfo
+:toc: left
+:toc-title: Sommaire
+:toclevels: 5
+:imagesdir: images
+
+Ce wiki contiens toutes mes notes, procédure et aussi un mémo des liste des commandes que j'utilise.
+
+:leveloffset: +1
+
+[[tocSwitch]]
+
+include::./Notes/index.ad[Notes]
+
+
+include::./Procedures/index.ad[Procédures]
+
+include::./Cmd/index.ad[Mémo Commande]
+
+include::./Syntaxe-AsciiDoc/index.ad[Syntaxe AsciiDoc]
+ 
+:leveloffset: -1

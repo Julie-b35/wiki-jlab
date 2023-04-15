@@ -1,0 +1,22 @@
+ifdef::toc[]
+=  02 Base du réseaux
+:imagesdir: {imagesdir}/01/BaseReseau
+:stem:
+endif::[]
+
+ifndef::toc[]
+=  02 Base du réseaux
+Nom de l'auteur <julie.brindejont@jlab.ovh>
+v1.0, 2023-04-08
+:toc: left
+:toc-title: Sommaire
+:imagesdir: ../../../../../images/notes/eni/TSSR2023/modules/01/BaseReseau
+:stem:
+endif::[]
+
+Formatrice Élisabeth LEFRANC
+
+:leveloffset: +1
+include::01_ModeleOSI.ad[]
+
+:leveloffset: -1
