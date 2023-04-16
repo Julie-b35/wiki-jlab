@@ -47,3 +47,7 @@ Ce sous module à été fait en 1 semaine du `10 avril 2023` au `14 avril 2023`.
 ** Simplification
 ** Le bénéfices
 ** Les différents types d'adresses
+
+== Mes conclussion
+
+NOTE: Conclusion à venir.
