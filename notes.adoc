@@ -8,19 +8,5 @@ Cette page contienne mes notes des différents support que j'ai pu lire ou écou
 * Décrire des information sur l'eni dans link:/notes/eni[Notes ENI]
 * Décrire la formation TSSR 2023 dans link:/notes/eni/tssr2023/[Notes formation TSSR]
 * Introduction sur le 1er module dans link:/notes/eni/tssr2023/module-01[1er Module]
-* Réecrire les notes sur les link:notes/eni/tssr2023/module-01/outils-collaboratifs[Outils Collaboratifs]
+* Réecrire les notes sur les link:/notes/eni/tssr2023/module-01/outils-collaboratifs[Outils Collaboratifs]
 ====
-
-.à Modifier
-[CAUTION]
-====
-
-====
-
-Liste de notes sur les différents modules
-
-link:/notes/eni/tssr2023/Module1/01-Outils-Collaboratifs/01-Outils-Collaboratifs[01-Outils-Collaboratifs]
-
-== Cours Cisco
-
-== A retenir
