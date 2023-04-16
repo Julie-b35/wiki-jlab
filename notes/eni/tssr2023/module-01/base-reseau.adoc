@@ -15,7 +15,7 @@ Formatrice : Mme Élisabeth LEFRANC
 == Sommaire
 
 * Module 1 : link:modele-osi[Le modèle OSI]
-** Définition
+** link:modele-osi#_définition[Définition]
 ** Modèles OSI
 ** Communication entre les couches
 ** Analogie avec la poste
