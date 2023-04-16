@@ -1,9 +1,5 @@
 = Introduction
 
-<style>
-
-</style>
-
 == Référents :
 * Référent pédagogique: *Mathieu LEMASSON*
 * Responsable administratif : *Morgane LOHIER*, mail:  `mlohier@eni-ecole.fr`
@@ -25,11 +21,9 @@
 
 // | Mdoule | Semaine | Cours | Durée
 
+[cols="^1,^1,^3,"]
 |===
 h| Module h| Semaine  h| Cours h| Durée
-.2+^.^| link:module-01[Module1] | 03/04/2023 au 07/04/2023| Office 365 - Outils Collaboratifs | 4 jours + EPCF1
+.2+| link:module-01[Module1] | 03/04/2023 au 07/04/2023| Office 365 - Outils Collaboratifs | 4 jours + EPCF1
 | 10/04/2023 au 11/04/2023 a| Base des réseaux | 5 jours
-^.^| Module | | |
-| Module | | |
-| Module | | |
 |===
