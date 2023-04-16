@@ -1,6 +1,6 @@
 =  01 Outils Collaboratifs
 
-:imagesdir: /images/notes/eni/TSSR2023/modules/01/outils-collaboratifs/
+:imagesdir: /images/cours/eni/tssr2023/outils-collaboratifs/
 
 Formateur : Cédric RICHEZ
 
