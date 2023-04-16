@@ -16,5 +16,6 @@ Des tuto qui sont soit de moi, où de sources exterieur.
 
 
 == Notes
-Quelque notes qui peuvent être utiles.
+
+Lien vers link:/notes[Notes]
 
