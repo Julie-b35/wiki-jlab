@@ -33,16 +33,12 @@ Formatrice Élisabeth LEFRANC
 *** *PDU* (N) = *SDU* (N) + *PCI* (N)
 *** Chaque couche ajoute à la donnée opaque qui est le *SDU* des informations de contrôle de protocole (*PCI*) pour obtenir un *PDU*, tout comme le facteur qui ne voit pas le contenu d'une lettre (*SDU*) mais seulement l'adresse du destinataire (*PCI*) écrite sur l'enveloppe (*PDU*).
 
-
-
-
-
-=== Schéma
-.Modèle OSI.
+=== Modèle OSI
 
 image::modeleosi.png[modeleosi.png]
 
-.Schéma PDU.
+=== Communication entre les couches
+
 image::comcouches.png[]
 
 |===
