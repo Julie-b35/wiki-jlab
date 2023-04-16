@@ -1,0 +1,20 @@
+= Démo - Voir l'encapsulation avec WirShark
+Nom de l'auteur <julie.brindejont@jlab.ovh>
+v1.0, 2023-04-08
+:imagesdir: /images/notes/training-eni/BaseReseau/ModeleOSI/Trame
+
+== WireShark
+
+WireShark peut être téléchargé ici : https://www.wireshark.org/
+
+.voici l'accueil de WireShark.
+image::01_screenwireshark.png[]
+
+A présent on lance une capture de la carte réseau principal en double cliquant sur la carte réseau voulue, ici : *Ethernet0*
+
+image::02_screenwireshark.png[]
+
+.voici un exemple de capture
+image::03_screenwireshark.png[]
+
+On retrouve la couche IP, et la couche TCP.
