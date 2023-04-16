@@ -1,3 +1,18 @@
-== header
+= Introduction
 
-content
+== Référents :
+* Référent pédagogique: *Mathieu LEMASSON*
+* Responsable administratif : *Morgane LOHIER*, mail:  `mlohier@eni-ecole.fr`
+* Responsable Pédagogique : *Jordan RONSAUT*, mail: `jronsaud@eni-ecole.fr`
+* Relation entreprise: *Gwenaëlle Mauduit* : mail: `gmauduit@eni-ecole.fr`
+* Pour les absence: *Elodie PELLERIN* : mail, `epellerin@eni-ecole.fr`
+
+== Liste produit utilisé.:
+
+* Distribution Linux utilisé : Debian/Redhat
+* Logiciel gestion de parc : (GLPI)
+* Outils de supervision : (centreon)
+
+== Vocabulaire :
+
+* `*SaaS*` -> Software as a Service
