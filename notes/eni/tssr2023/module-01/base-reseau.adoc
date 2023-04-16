@@ -1,3 +1,16 @@
-== header
+= Bases des réseau
 
-content
+Ce sous module à été fait en 1 semaine du `10 avril 2023` au `14 avril 2023`.
+
+== Objectifs
+
+* Connaitre les couches du modèle OSI
+* Manipuler les unités de mesure informatique
+* Appréhender l'addressage IP
+* Connaître la communication au sein du réseau
+* Découvrire les premières commandes.
+
+== Sommaire
+
+* Module 1 : link:modele-osi[Le modèle OSI]
+* Module 2 : 
