@@ -4,6 +4,7 @@ v1.0, 2023-04-08
 
 Ce wiki contient toutes sorte de documentations, quelles soit technique, ou de simple pense-bêtes utile.
 
+////
 == Wiki
 Partie réservé à l'utilisation de ce wiki
 
@@ -13,7 +14,21 @@ Toutes mes procédures que j'ai mis au points.
 
 == Tutoriels
 Des tuto qui sont soit de moi, où de sources exterieur.
+////
 
+== Cours Eni en TSSR
+
+Documentation sur les cours que j'ai suivie au centre de formation de l'ENI
+
+[NOTE]
+====
+
+* Petite introduction sur l'école ENI
+* Petite présentation sur la formation TSSR
+
+====
+
+* link:cours/eni/tssr2023[Cours Formation TSSR]
 
 == Notes
 
