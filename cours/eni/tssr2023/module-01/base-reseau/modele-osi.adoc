@@ -2,65 +2,40 @@
 Nom de l'auteur <julie.brindejont@jlab.ovh>
 v1.0, 2023-04-08
 
-:imagesdir: /images/notes/eni/TSSR2023/modules/01/BaseReseau
+:imagesdir: /images/cours/eni/TSSR2023/modules/01/BaseReseau
 
+.Formateur
 Formatrice Élisabeth LEFRANC
 
-== Objectif
-
+.Objectif
+****
 * Représenter le modèle OSI.
 * Expliquer le principe d'encapsulation.
 * Expliquer le principe de désencapsulation
 * Illustrer la communication entre ordinateur
 * connaître le fonctionnement des couches du modèles OSI.
-
+****
 
 == Définition
 
-.Définition
-****
-Le `*modèle OSI*` est présenté en 7 couches indépendantes et communicantes, il représente la communication entre systèmes d'information en réseau (entre ordinateur).
-Ce modèle est proposé par l'organisme de normalisation `*ISO*`.
-****
+* *Modèle OSI* _(**O**pen **S**ystem **I**nterconnection)_
+** Présenté en 7 couches indépendantes et communicantes.
+** Représente la communication entre systèmes d'information en réseau (entre ordinateur).
+** Proposé par l'organisme de normalisation *ISO* (International Organisation for Standardization)
+* *Protocole*
+** Ensemble des règles à respecter permettant la communication entre systèmes d'information en réseau.
+** Exemple : **I**nternbet **P**rotocol (Ensemble de protocoles utilisés sur Internet et des les réseau locaux) 
+* *PDU* (Protocol Data Unit / Unité de données de Protocole)
+** Unité de mesure des données échangés dans un réseau
+** Constituée de plusieurs éléments distincts :
+*** Des informations de contrôle de protocol (*PCI* : **P**rotocol **C**ontrol **I**nformation)
+*** Des unité de services (*SDU* : **S**ervice **D**ata **U**nit)
+*** *PDU* (N) = *SDU* (N) + *PCI* (N)
+*** Chaque couche ajoute à la donnée opaque qui est le *SDU* des informations de contrôle de protocole (*PCI*) pour obtenir un *PDU*, tout comme le facteur qui ne voit pas le contenu d'une lettre (*SDU*) mais seulement l'adresse du destinataire (*PCI*) écrite sur l'enveloppe (*PDU*).
 
-.Vocabulaire
-[cols="1,5"]
-|===
-^.^| *ISO* | **I**nternational **O**rganisation for **S**tandardisation
-^.^| *Protocoles* | Ensemble de règle à respecter permettant la communication entre systèmes d'information en réseau.
-^.^| *OSI* | Modèle (**O**pen **S**ystem **I**nterconnexion)
-^.^| *PCI* | **P**rotocol **C**ontrol **I**nformation
-^.^| *SDU* | **S**ervice **D**ata **U**nit
-^.^| *PDU* a| **P**rotocol **D**ata **U**nit. Correspond à une unité de mesure des données échangés dans un réseau, il est constritué de plusieur éléments :
 
-* Des informations de contrôle de protocol (*PCI*)
-* Des unité de services *SDU*
-* *PDU* (N) = *SDU* (N) + *PCI* (N)
-* Chaque couche ajoute à la donnée opaque qui est le *SDU* des informations de contrôle de protocole (*PCI*) pour obtenir un *PDU*. tout comme le facteur qui ne voit pas le contenu d'une lettre (*SDU*) mais seulement l'adresse du destinataire (*PCI*) écrite sur l'enveloppe (*PDU*).
-^.^| *CIDR* | _**C**lassless **I**nter-**D**omain **R**outing_ : est une méthode de regroupement d'adresses IP utilisée sur le réseau Internet qui remplace le mécanisme de classes d'adresses (y compris masque de sous-réseau parfois utilisé à tord en remplacement de cidr), trop rigide.
 
-|===
 
-.Protocoles
-|===
-^.^h| Protocoles | Définition 
-^.^| *IP (Internet Protocol)* | Ensemble de protocoles utilisés sur Internet et des les réseau locaux. 
-^.^| *FTP (File Transfer Protocol)* | Protocole conçue pour le transfère de fichiers
-^.^| *HTTP (Hyper Text Transfer Protocol)* | protocole de communication client-serveur pour le World Wild Web.
-^.^| *HTTPS (Hyper Text Transfer Protocol Secure)* | est la combinaison du protocole HTTP avec une 
-couche de chiffrement comme le SSL ou TLS
-^.^| *SMTP (Simple Mail Transfer Protocol)* | en cours d'implémentation 
-^.^| *SSH (Secure SHell)* |  en cours d'implémentation 
-^.^| *IMAP (Internet Message Access Protocol)* |  en cours d'implémentation 
-^.^| *LDAP (Lightweight Directory Access Protocol)* |  en cours d'implémentation 
-^.^| *RDP (Remote Desktop Protocol)* |  en cours d'implémentation 
-^.^| *DNS (Domain Name Server)* |  en cours d'implémentation 
-^.^| *DHCP (Dynamic Host Configuration Protocol)* |  en cours d'implémentation 
-^.^| *SNMP (Simple Network Management Protocol)* |  en cours d'implémentation 
-^.^| *TLS (Transport Layer Secure)* | protocole de sécurisation
-^.^| *SSL (Secure Socket Layer)* | protocole de sécurisation
-
-|===
 
 === Schéma
 .Modèle OSI.
