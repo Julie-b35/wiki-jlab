@@ -1,0 +1,11 @@
+= Notes sur les bases des réseaux
+
+== Vocabulaire
+
+Liste de vocabulaire à retenir que selon moi est éssentiel.
+
+* *ISO* (_**I**nternational **O**rganisation for **S**tandardisation_) : L'organisme internationale de normalisation met en place des normes, le modèle OSI repose sur la norme link:https://fr.wikipedia.org/wiki/Mod%C3%A8le_OSI[7498]
+
+== Notes
+
+* Le *_modèle OSI_* est proposé par l'*_ISO_*
