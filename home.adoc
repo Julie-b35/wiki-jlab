@@ -16,17 +16,10 @@ Toutes mes procédures que j'ai mis au points.
 Des tuto qui sont soit de moi, où de sources exterieur.
 ////
 
-== Cours Eni en TSSR
+== link:/cours[Cours]
 
+=== link:/cours/eni[Cours dispensé par l'ENI école informatique]
 Documentation sur les cours que j'ai suivie au centre de formation de l'ENI
-
-[NOTE]
-====
-
-* Petite introduction sur l'école ENI
-* Petite présentation sur la formation TSSR
-
-====
 
 * link:cours/eni/tssr2023[Cours Formation TSSR]
 
