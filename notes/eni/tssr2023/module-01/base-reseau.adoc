@@ -2,6 +2,8 @@
 
 Ce sous module à été fait en 1 semaine du `10 avril 2023` au `14 avril 2023`.
 
+Formatrice : Mme Élisabeth LEFRANC
+
 == Objectifs
 
 * Connaitre les couches du modèle OSI
