@@ -1,4 +1,6 @@
 = Notes
 
+Lien vers link:notes/base-reseau[Notes Base Réseau]
+
 Cette page contienne mes notes des différents support que j'ai pu lire ou écouter.
 
