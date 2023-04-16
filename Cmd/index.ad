@@ -1,9 +1,0 @@
-= Mémo sur les commandes
-
-:leveloffset: +1
-
-include::./Linux/shell_linux.ad[Commande diverse]
-
-include::./Windows/Raccourcie.ad[Raccourcie windows]
-
-:leveloffset: -1
