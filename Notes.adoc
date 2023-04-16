@@ -1,0 +1,15 @@
+= Notes
+
+Cette page contienne mes notes des différents support que j'ai pu lire ou écouter.
+
+== Cours ENI
+
+=== Session TSSR 2023
+
+Liste de notes sur les différents modules
+
+link:/notes/eni/tssr2023/Module1/01-Outils-Collaboratifs/01-Outils-Collaboratifs[01-Outils-Collaboratifs]
+
+== Cours Cisco
+
+== A retenir
