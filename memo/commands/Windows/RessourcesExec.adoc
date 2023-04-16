@@ -1,3 +1,5 @@
-== header
+= Raccourcie commande Windows
 
-content
+Différente raccourcie à lancé via `*Win+R*` 
+
+- La commande `*control*` affiche le panneau de configuration.
