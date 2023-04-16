@@ -1,0 +1,195 @@
+= Modèle OSI
+Nom de l'auteur <julie.brindejont@jlab.ovh>
+v1.0, 2023-04-08
+
+:imagesdir: /images/notes/eni/TSSR2023/modules/01/BaseReseau
+
+Formatrice Élisabeth LEFRANC
+
+== Objectif
+
+* Représenter le modèle OSI.
+* Expliquer le principe d'encapsulation.
+* Expliquer le principe de désencapsulation
+* Illustrer la communication entre ordinateur
+* connaître le fonctionnement des couches du modèles OSI.
+
+
+== Définition
+
+.Définition
+****
+Le `*modèle OSI*` est présenté en 7 couches indépendantes et communicantes, il représente la communication entre systèmes d'information en réseau (entre ordinateur).
+Ce modèle est proposé par l'organisme de normalisation `*ISO*`.
+****
+
+.Vocabulaire
+[cols="1,5"]
+|===
+^.^| *ISO* | **I**nternational **O**rganisation for **S**tandardisation
+^.^| *Protocoles* | Ensemble de règle à respecter permettant la communication entre systèmes d'information en réseau.
+^.^| *OSI* | Modèle (**O**pen **S**ystem **I**nterconnexion)
+^.^| *PCI* | **P**rotocol **C**ontrol **I**nformation
+^.^| *SDU* | **S**ervice **D**ata **U**nit
+^.^| *PDU* a| **P**rotocol **D**ata **U**nit. Correspond à une unité de mesure des données échangés dans un réseau, il est constritué de plusieur éléments :
+
+* Des informations de contrôle de protocol (*PCI*)
+* Des unité de services *SDU*
+* *PDU* (N) = *SDU* (N) + *PCI* (N)
+* Chaque couche ajoute à la donnée opaque qui est le *SDU* des informations de contrôle de protocole (*PCI*) pour obtenir un *PDU*. tout comme le facteur qui ne voit pas le contenu d'une lettre (*SDU*) mais seulement l'adresse du destinataire (*PCI*) écrite sur l'enveloppe (*PDU*).
+^.^| *CIDR* | _**C**lassless **I**nter-**D**omain **R**outing_ : est une méthode de regroupement d'adresses IP utilisée sur le réseau Internet qui remplace le mécanisme de classes d'adresses (y compris masque de sous-réseau parfois utilisé à tord en remplacement de cidr), trop rigide.
+
+|===
+
+.Protocoles
+|===
+^.^h| Protocoles | Définition 
+^.^| *IP (Internet Protocol)* | Ensemble de protocoles utilisés sur Internet et des les réseau locaux. 
+^.^| *FTP (File Transfer Protocol)* | Protocole conçue pour le transfère de fichiers
+^.^| *HTTP (Hyper Text Transfer Protocol)* | protocole de communication client-serveur pour le World Wild Web.
+^.^| *HTTPS (Hyper Text Transfer Protocol Secure)* | est la combinaison du protocole HTTP avec une 
+couche de chiffrement comme le SSL ou TLS
+^.^| *SMTP (Simple Mail Transfer Protocol)* | en cours d'implémentation 
+^.^| *SSH (Secure SHell)* |  en cours d'implémentation 
+^.^| *IMAP (Internet Message Access Protocol)* |  en cours d'implémentation 
+^.^| *LDAP (Lightweight Directory Access Protocol)* |  en cours d'implémentation 
+^.^| *RDP (Remote Desktop Protocol)* |  en cours d'implémentation 
+^.^| *DNS (Domain Name Server)* |  en cours d'implémentation 
+^.^| *DHCP (Dynamic Host Configuration Protocol)* |  en cours d'implémentation 
+^.^| *SNMP (Simple Network Management Protocol)* |  en cours d'implémentation 
+^.^| *TLS (Transport Layer Secure)* | protocole de sécurisation
+^.^| *SSL (Secure Socket Layer)* | protocole de sécurisation
+
+|===
+
+=== Schéma
+.Modèle OSI.
+
+image::modeleosi.png[modeleosi.png]
+
+.Schéma PDU.
+image::comcouches.png[]
+
+|===
+2+^.^h| Analyse Schéma du PDU
+| Principe d'encapsulation | Principe de désencapsulation
+a|
+****
+Concéderont la *couche N+1* étant la couche *Session*.
+
+1. La *couche N+1 (Session)* à générer un *PDU* que je nommerai *_DATA_* qui la transmet à la *couche N (Transport)*.
+2. Le *PDU* deviens le *SDU* à la *Transport*, après traitement la couche *Transport* ajoute son *PCI*. 
+3. Le *SDU* + le *PCI* deviens le *PDU* de la couche *Transport* qui est envoyé à la *couche N-1 (Réseau)*, etc...
+****
+a|
+****
+Concéderont la *couche N-1* étant la couche *Réseau*.
+
+1. La *couche N-1 (Réseau)* à envoyer un *PDU* que je nommerai *_Segment_* qui la transmet à la *couche N (Transport)*.
+2. Le *PDU* qui est *PCI + SDU*  pour la couche *Transport*, récupère sont *PCI*, le traite puis envoie le *SDU* qui devient le *PDU* à la *couche N+1 (Session)*, ....
+****
+|===
+
+.Schéma Modèle OSI avec les ports principaux
+image::ports.png[]
+
+
+* *Protocole ARP* : Permet de récupérer l'adresse MAC des machines
+* *Ping* : Permet de tester si la machine
+* *Ipconfig* : Permet de liste la configuration
+* *Netstat* : 
+* *tracert - traceroute*
+* *WAN*  : Internet
+* *Limite ports* : 65 536
+
+=== Encapsulation
+
+== Modèle OSI et communication
+
+* Switch ou Switch niveau 2
+** Filtre les adresse MAC
+* Routeur ou Switch niveau 3
+** Fonction de Routeur
+En cours de conceptions.
+
+
+=== routeur
+* Routeur 1 (Réseau PC):
+** "GigabitEthernet0/3/0" -> *IP : à définir
+*** Vers Routeur 3  (Réseau Serveur) "GigabitEthernet0/1/0"
+** "GigabitEthernet0/2/0" -> *IP : à défini
+*** Vers Routeur 2 (Réseau Portable) "GigabitEthernet0/1/0"
+
+* Routeur 2 (Réseau Portable):
+** "GigabitEthernet0/3/0" -> *IP : à définir
+*** Vers Routeur 3  (Réseau Serveur) "GigabitEthernet0/1/0"
+** "GigabitEthernet0/2/0" -> *IP : à défini
+*** Vers Routeur 2 (Réseau Portable) "GigabitEthernet0/1/0"
+
+== Numérotation
+
+* *1111* = stem:[2^3] 2^3 + 2^2 + 2^1 +  2^0 = 8 + 4 + 2 + 1 = 8+4+3 = 8+7 = 15
+
+== Concertire Hexadécima en Binaire
+
+convertion décimal binaire
+
+|===
+|2^7|2^6|2^5
+|===
+
+== IPV4
+
+=== Classe A
+
+La classe A à sont 1er bit à 0
+Sont masque par défaut est 255.0.0.0
+
+=== Classe B
+
+=== Classe C
+
+=== Classe D
+
+=== Classe E
+multicast
+
+240 = 1111 0000
+192 = 1100 0000
+192 = 1100 0000
+
+id réseau
+172.25.192.0
+
+172.025.192.0
+255.255.240.0
+172.025.(1100 0000 . 0000 0000)
+
+010.000.255.63
+255.255.255.224
+010.000.255.(0001 1111) = 10.0.255.32 / 10.0.
+
+
+224 = 1110 0000
+63 =  0001 1111
+
+0000 - réseau
+0001 - PC1
+0010 - PC2
+0011 - PC3
+0100 - PC4
+0101 - PC5
+0110 - PC6
+0111 - Broadcast
+
+1111 1000/29
+
+Adresse utilisable ne privé
+* 10.0.0.0/8 classe A
+* 172.16.0.0/12 Classe B
+* 192.168.0.0/16
+* 168.254.0.0/16 -> Si la requête DHCP à échoué.
+
+== Découpage réseau
+
+Découper les réseau en 6 sous-réseau en part égale
