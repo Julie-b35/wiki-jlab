@@ -1,7 +1,20 @@
-= Laboratoire de Julie
+= Bienvenue
+Nom de l'auteur <julie.brindejont@jlab.ovh>
+v1.0, 2023-04-08
 
-Ce wiki contient touts ce qui me sort part la tête sur le plan technique.
+Ce wiki contient toutes sorte de documentations, quelles soit technique, ou de simple pense-bêtes utile.
 
-Je reprouperais tous mes cours, TP, Procudure.
+== Wiki
+Partie réservé à l'utilisation de ce wiki
 
-Test édition
+
+== Procédure
+Toutes mes procédures que j'ai mis au points.
+
+== Tutoriels
+Des tuto qui sont soit de moi, où de sources exterieur.
+
+
+== Notes
+Quelque notes qui peuvent être utiles.
+
