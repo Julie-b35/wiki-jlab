@@ -4,8 +4,6 @@ v1.0, 2023-04-08
 
 :imagesdir: /images/cours/eni/tssr2023/base-reseau
 
-image::/images/cours/eni/tssr2023/base-reseau/ports.png[ports.png]
-
 .Formateur
 Formatrice Élisabeth LEFRANC
 
