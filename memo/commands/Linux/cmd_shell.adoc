@@ -67,7 +67,7 @@ $>sudo apt install php8.2
 $>sudo apt install software-properties-common
 ```
 
-== - ajouter liste groupe à un utilisateur
+== - ajouter de plusieurs groupes à un utilisateur
 ```
 #>usermod -aG group1,group2,groupN user
 ```
