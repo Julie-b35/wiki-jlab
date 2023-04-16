@@ -16,3 +16,16 @@
 == Vocabulaire :
 
 * `*SaaS*` -> Software as a Service
+
+== Listes des modules
+
+// | Mdoule | Semaine | Cours | Durée
+
+|===
+h| Module h| Semaine  h| Cours h| Durée
+.2+| Module1 | 03/04/2023 au 07/04/2023| Office 365 - Outils Collaboratifs | 4 jours + EPCF1
+| 10/04/2023 au 11/04/2023| Base des réseaux | 5 jours
+| Module | | |
+| Module | | |
+| Module | | |
+|===
