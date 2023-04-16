@@ -1,0 +1,39 @@
+= Boîtiers
+
+ifdef::imagesdir[]
+:imagesdir: {imagesdir}/01
+endif::[]
+
+ifndef::imagesdir[]
+:imagesdir: /images/notes/cisco/01
+endif::[]
+
+*Le format du boiter dépend du format de la carte mère.*
+
+Exemple:
+
+image::01-boîtier_1.png[Boîtiers]
+
+== Boîtier horizontale
+
+Exemple:
+
+image::01-boîtier_2.png[Boîtier_horizontale]
+
+== Tour pleine grandeur
+
+Exemple:
+
+image::01-boîtier_3.png[Tour_plaine_grandeur]
+
+== Tour compacte
+
+Exemple:
+
+image::01-boîtier_4.png[Tour_compacte]
+
+== Tout-en-un
+
+Exemple:
+
+image::01-boîtier_5.png[Tout_en_un]
