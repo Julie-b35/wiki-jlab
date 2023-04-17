@@ -1,0 +1,6 @@
+= 2ème Module
+
+Le 2ème module est basé sur link:module-02/client-windows[Client Windows].
+
+Il se déroule sur 2 semaine du 17/04/2023 au 28/04/2023.
+
