@@ -2,6 +2,11 @@
 
 Formateur remplaçant : Nicolas
 
+== vocabulaire
+
+* *WaaS* (**W**indows **a**s *a* **S**ervice)
+* H1, H2 = 1er Semestre , 2ème semestre
+
 == Système d'exploitation (OS Operating System)
 
 * L'os est un logiciel qui à le but de s'intercaler entre le matériel et les application / utilisateur
@@ -29,3 +34,24 @@ Formateur remplaçant : Nicolas
 * link:https://www.slideshare.net/DamianGordon1/a-history-of-microsoft-windows[Histoire Microsoft Windows]
 * link:https://www.phonandroid.com/windows-xp-retour-histoire-os-microsoft.html[]
 * link:https://www.zdnet.fr/actualites/chiffres-cles-les-systemes-d-exploitation-sur-pc-39790131.htm[]
+
+== Windows
+* Windows lance un build tout les 6 mois environ.
+* Version Entreprise vs pro
+** accès AppLocker
+** DirectAccess (comme un VPN, siplifie la configuration)
+** branchCache
+
+== Licence Windows
+* MAK : licence pour plusieur installation
+* VLK : Pool de licence 
+* CAL : Pour service spécifique
+
+== Architecture matériel
+
+* 16 bits pour windows 95, MS dos
+* 32 bits 
+* 64 bits (20 ans) AMD 64
+* processeur ARM ``
+
+* gérer par la carte mère
