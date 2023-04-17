@@ -1,0 +1,10 @@
+== Procédure de l'installation Windows 10 Pro
+
+=== Utilisation de Vmware Workstation 
+
+1. Démarré le logiciel de virtualisation *Vmware Workstation*
+2. *Clique droit* sur la zone _Verte_ 
+
+image::/images/procedures/workstation/01.png[01.png]
+
+3. 
