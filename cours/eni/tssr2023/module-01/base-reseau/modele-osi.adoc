@@ -41,28 +41,15 @@ image::modeleosi.png[modeleosi.png]
 
 image::comcouches.png[]
 
-|===
-2+^.^h| Analyse Schéma du PDU
-| Principe d'encapsulation | Principe de désencapsulation
-a|
-****
-Concéderont la *couche N+1* étant la couche *Session*.
+=== Les ports
 
-1. La *couche N+1 (Session)* à générer un *PDU* que je nommerai *_DATA_* qui la transmet à la *couche N (Transport)*.
-2. Le *PDU* deviens le *SDU* à la *Transport*, après traitement la couche *Transport* ajoute son *PCI*. 
-3. Le *SDU* + le *PCI* deviens le *PDU* de la couche *Transport* qui est envoyé à la *couche N-1 (Réseau)*, etc...
-****
-a|
-****
-Concéderont la *couche N-1* étant la couche *Réseau*.
+image::ports.png[]
 
-1. La *couche N-1 (Réseau)* à envoyer un *PDU* que je nommerai *_Segment_* qui la transmet à la *couche N (Transport)*.
-2. Le *PDU* qui est *PCI + SDU*  pour la couche *Transport*, récupère sont *PCI*, le traite puis envoie le *SDU* qui devient le *PDU* à la *couche N+1 (Session)*, ....
-****
-|===
+=== Encapsulation
+
+image::encapsulation.png[]
 
 .Schéma Modèle OSI avec les ports principaux
-image::ports.png[]
 
 
 * *Protocole ARP* : Permet de récupérer l'adresse MAC des machines
