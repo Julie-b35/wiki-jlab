@@ -76,3 +76,4 @@ Concéderont la *couche N-1* étant la couche *Réseau*.
 1. La *couche N-1 (Réseau)* à envoyer un *PDU* que je nommerai *_Segment_* qui la transmet à la *couche N (Transport)*.
 2. Le *PDU* qui est *PCI + SDU*  pour la couche *Transport*, récupère sont *PCI*, le traite puis envoie le *SDU* qui devient le *PDU* à la *couche N+1 (Session)*, ....
 ****
+
