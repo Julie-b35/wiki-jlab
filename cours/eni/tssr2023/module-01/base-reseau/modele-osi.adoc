@@ -57,13 +57,12 @@ image::decapsulation.png[decapsulation.png]
 
 image::analogie-poste.png[analogie-poste.png]
 
-.Description
-****
-1. L'utilisateur (*L'application*) rédige une lettre
-2. L'utilisateur met la lettre dans une envelopppe (*Présentation*)
-3. L'utilisateur indique l'adresse sur l'envelopppe (*Session*)
-4. L'utilisateur 
-****
+== Modèle OSI et communication
+
+=== Exemple de communication
+
+image::/images/cours/eni/tssr2023/base-reseau/ex-communication.png[ex-communication.png]
+
 
 * *Protocole ARP* : Permet de récupérer l'adresse MAC des machines
 * *Ping* : Permet de tester si la machine
