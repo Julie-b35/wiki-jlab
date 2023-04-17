@@ -1,6 +1,6 @@
 == Notes Client Windows
 
-Formateur remplaçant : Nicolas
+Formateur remplaçant : Nicolas Laurent
 
 == vocabulaire
 
@@ -70,4 +70,4 @@ Fonctionnement ordinateur
 
 ==Virtualisation
 
-* NAT
+* OBE = Out of the be experience
