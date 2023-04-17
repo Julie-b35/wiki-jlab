@@ -54,6 +54,12 @@ couche de chiffrement comme le SSL ou TLS
 == Notes
 
 === Analyse de l'encapsulation
+
+image::/images/cours/eni/tssr2023/base-reseau/encapsulation.png[encapsulation.png]
+
+==== Eplication : 
+1. L'application génère un *APDU* à partir du *EA* (_PCI_) + les données (_SDU_), puis envoie l'*APDU* à la couche suivante (Présentation)
+
 ****
 Concéderont la *couche N+1* étant la couche *Session*.
 
