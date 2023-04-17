@@ -26,5 +26,5 @@
 h| Module h| Semaine  h| Cours h| Durée
 .2+| link:module-01[Module1] | 03/04/2023 au 07/04/2023| link:module-01/outils-collaboratifs[Office 365 - Outils Collaboratifs] | 4 jours + EPCF1
 | 10/04/2023 au 11/04/2023 a| link:module-01/base-reseau[Base des réseaux] | 5 jours
-| link:module-02[Module2] | 17/04/2023 au 28/04/2023 | link:module-01/clien-windows-1[Systèmes clients Microsoft (1/2)] | 10 jours
+| link:module-02[Module2] | 17/04/2023 au 28/04/2023 | link:module-01/client-windows[Systèmes clients Microsoft (1/2)] | 10 jours
 |===
