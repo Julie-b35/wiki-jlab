@@ -1,3 +1,31 @@
 == Notes Client Windows
 
-content
+Formateur remplaçant : Nicolas
+
+== Système d'exploitation (OS Operating System)
+
+* L'os est un logiciel qui à le but de s'intercaler entre le matériel et les application / utilisateur
+* Dessus il y a une base logiciel 
+* L'os est capable de s'auto maintenir
+* Windows update propose ses drivers générique et ceux de certains constructeur
+* Le coeur est le noyau (kernel)
+* Le shell est la coquille du noyau
+* L'interface graphique (optionnelle) + Système de fichiers
+* New Technologie File System (NTFS)
+* apfs système de fichier Mac OS
+
+== Historique
+
+* MS-DOC (Août 1981) l'poque il n'y avais que de l'IBM
+
+* La branche 9x était basé sur MSDOS
+* Windows NT était un windows pour des entreprises non basé sur le noyau de MS DOS
+* Windows NT à eu un nouveau kernel
+* Windows Xp fusion interface windows 9x avec win Nt
+
+== Lien utile
+* link:https://www.youtube.com/watch?v=hAJm6RYTIro[Video 1]
+* link:https://www.youtube.com/watch?v=0UUAQiT2-Xc[Video 2]
+* link:https://www.slideshare.net/DamianGordon1/a-history-of-microsoft-windows[Histoire Microsoft Windows]
+* link:https://www.phonandroid.com/windows-xp-retour-histoire-os-microsoft.html[]
+* link:https://www.zdnet.fr/actualites/chiffres-cles-les-systemes-d-exploitation-sur-pc-39790131.htm[]
