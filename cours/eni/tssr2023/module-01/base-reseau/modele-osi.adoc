@@ -37,7 +37,7 @@ Formatrice Élisabeth LEFRANC
 
 image::modeleosi.png[modeleosi.png]
 
-=== Communication entre les couches
+== Communication entre les couches
 
 image::comcouches.png[]
 
@@ -49,8 +49,21 @@ image::ports.png[]
 
 image::encapsulation.png[]
 
-.Schéma Modèle OSI avec les ports principaux
+=== Décapsulation
 
+image::decapsulation.png[decapsulation.png]
+
+== Analogie avec la Poste
+
+image::analogie-poste.png[analogie-poste.png]
+
+.Description
+****
+1. L'utilisateur (*L'application*) rédige une lettre
+2. L'utilisateur met la lettre dans une envelopppe (*Présentation*)
+3. L'utilisateur indique l'adresse sur l'envelopppe (*Session*)
+4. L'utilisateur 
+****
 
 * *Protocole ARP* : Permet de récupérer l'adresse MAC des machines
 * *Ping* : Permet de tester si la machine
