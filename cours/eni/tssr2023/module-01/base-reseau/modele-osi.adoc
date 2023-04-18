@@ -70,6 +70,9 @@ image::/images/cours/eni/tssr2023/base-reseau/ex-communication-3.png[ex-communic
 
 == Les couches du modèle OSI
 
+=== Couche Physique
+
+
 * *Protocole ARP* : Permet de récupérer l'adresse MAC des machines
 * *Ping* : Permet de tester si la machine
 * *Ipconfig* : Permet de liste la configuration
