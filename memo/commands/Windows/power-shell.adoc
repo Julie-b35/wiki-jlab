@@ -1,0 +1,30 @@
+= Powershell
+
+== Exemple 1
+
+=== Changement couleurs
+
+* Clic droit -> Propriétés -> Couleurs
+
+=== Liste des commandes
+
+==== help
+
+[source, shell]
+----
+# Aide commande cd et usage
+cd /?
+# Se placer à la racine
+cd C:\
+# Création dossier et fichier
+mkdir TEST
+help > C:\TEST\aide.txt
+# Afficher contenu
+C:\TEST\aide.txt
+type C:\TEST\aide.txt
+# Copie de fichier
+C:\TEST\aide.txt C:\Users\nlaurent\Desktop\
+xcopy /E C:\TEST\aide.txt C:\Users\nlaurent\Desktop
+# Lister les fichiers dans un dossier
+dir /OS /S
+----
