@@ -10,6 +10,10 @@
 * La commande `compmgmt.msc` Ouvre le gestionnaire de l'ordinateur
 * La commande `devmgmt.msc` ouvre le gestionnaire de périphérique
 * La commande `diskmgmt.msc` ouvre le gestionnaire de périphérique
+* La commande `Get-Help` affiche l'aide
+* La commande `Get-Command -name *printer*`
+* La commande `Get-Member` Récupère les proprité et les méthode d'un objet
+* La commande `Get-Verb` affiche les verbe courant
 
 == Serveur
 
@@ -19,3 +23,12 @@ Fujitsu
 
 
 
+== Powershell
+
+`$PSVersionTable` Renvoir la version de Powershell
+
+=== l'objet
+
+* constrituer de deux chose une propriété et une méthode
+* feutre = caractéristrique + 
+* ex: `Get-Service -Name Spooler | Get-Member | Select-Object Name,MemberType`
