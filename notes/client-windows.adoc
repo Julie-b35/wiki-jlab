@@ -1,4 +1,4 @@
-== Notes Client Windows
+= Notes Client Windows
 
 Formateur remplaçant : Nicolas Laurent
 
