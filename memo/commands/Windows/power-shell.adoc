@@ -81,5 +81,30 @@ $MaximumHistoryCount = 8192
 == Exemple 4
 [source, powershell]
 ----
-
+# Liste des commandes
+Get-command
+# Liste des commandes de type Cmdlet
+Get-Command -CommandType Cmdlet
+# Liste des commandes dont le verbe d'action et "get"
+Get-Command -CommandType Cmdlet -Name "get-*"
+Get-Command -CommandType Cmdlet | Where-Object -Property verb -Like "get"
+# Commande pour requêter liste des groupes locaux
+Get-Command -Name "get-*group*"
+Get-LocalGroup
+# Afficher toutes les propriétés du résultat de la commande Get-LocalGroup au lieu de l'affichage restreint par défaut 
+Get-LocalGroup | Select-Object *
+# Affichage personnalisé des propriétés d'un groupe précis
+Get-LocalGroup -Name "Utilisateurs du bureau à distance" | Select-Object -Property Name,PrincipalSource,SID
+# Afficher les disques d'une machine 
+Get-Disk
+# Afficher modele HDD + S/N d'une machine et numéro d'identification associé
+Get-Disk | Select-Object -Property DiskNumber,Model,SerialNumber
+# Afficher nom du disque + type de bus et fabricant et numéro d'identification associé
+get-disk -Number 1 | Select-Object FriendlyName,BusType,Manufacturer
+# Affichage personnalisé des cartes réseau
+Get-NetAdapter | Select-Object Name,Status,DriverDescription
+# Affichage membres groupe local Administrateurs
+Get-LocalGroupMember Administrateurs
+# Redirection de la sortie dans un fichier texte
+Get-LocalGroupMember Administrateurs > C:\GESTION\Bruh.txt
 ----
