@@ -1,3 +1,4 @@
+
 == Windows 10
 
 * `Ctrl + Maj + Echap` -> Gestionnaire de tâches (taskmgr)
@@ -6,4 +7,10 @@
 * la commande `dsikperf -n` enlève la gestion  des disque sur le gestionnaire des tâches
 * La commande `services.msc` ouvre la fenêtre des services
 * La commande `mmc` ouvre une nouvelle console
-* La commande `compmgmt.msc`Ouvre le gestionnaire de l'ordinateur
+* La commande `compmgmt.msc` Ouvre le gestionnaire de l'ordinateur
+* La commande `devmgmt.msc` ouvre le gestionnaire de périphérique
+* La commande `diskmgmt.msc` ouvre le gestionnaire de périphérique
+
+== Serveur
+
+Fujitsu
