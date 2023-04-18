@@ -1,0 +1,9 @@
+== Windows 10
+
+* `Ctrl + Maj + Echap` -> Gestionnaire de tâches (taskmgr)
+* clic droit menu démarré
+* la commande `dsikperf -y` ajoute la gestion  des disque sur le gestionnaire des tâches
+* la commande `dsikperf -n` enlève la gestion  des disque sur le gestionnaire des tâches
+* La commande `services.msc` ouvre la fenêtre des services
+* La commande `mmc` ouvre une nouvelle console
+* La commande `compmgmt.msc`Ouvre le gestionnaire de l'ordinateur
