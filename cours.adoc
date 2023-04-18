@@ -2,9 +2,9 @@
 
 Voici une liste de cours que j'ai suivie
 
-* link:/cours/eni[Cours dispensé par l'ENI école informatique]
-** link:/cours/eni/tssr2023[Cours pendant la formation à l'ENI]
-*** link:/cours/eni/tssr2023/module-01[1er module]
+* link:eni[Cours dispensé par l'ENI école informatique]
+** link:eni/tssr2023[Cours pendant la formation à l'ENI]
+*** link:eni/tssr2023/module-01[1er module]
 
 
 NOTE: Pour rappel j'ai écris des notes link:/notes[ici] pour simplifier en mieux les cours suivie.
