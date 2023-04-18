@@ -2,29 +2,84 @@
 
 == Exemple 1
 
-=== Changement couleurs
 
-* Clic droit -> Propriétés -> Couleurs
 
-=== Liste des commandes
-
-==== help
 
 [source, shell]
 ----
+# Changement couleurs
+# Clic droit -> Propriétés -> Couleurs
+
 # Aide commande cd et usage
 cd /?
+
 # Se placer à la racine
 cd C:\
+
 # Création dossier et fichier
 mkdir TEST
 help > C:\TEST\aide.txt
+
 # Afficher contenu
 C:\TEST\aide.txt
+
 type C:\TEST\aide.txt
+
 # Copie de fichier
 C:\TEST\aide.txt C:\Users\nlaurent\Desktop\
 xcopy /E C:\TEST\aide.txt C:\Users\nlaurent\Desktop
+
 # Lister les fichiers dans un dossier
 dir /OS /S
+----
+
+== Exemple 2
+
+[source, powershell]
+----
+# Affichage de la version Powershell utilisée 
+$PSVersionTable
+Get-Host
+# Affichage contenu dossier en cours
+Get-ChildItem
+# Affichage contenu d'un dossier
+Get-ChildItem \\SYSLAB-SVNAS\EXPORT-VM\2021-06-CA44-B2-LinuxServer
+# Personnalisation affichage et tri (pas dans le TP)
+Get-ChildItem \\SYSLAB-SVNAS\EXPORT-VM\2021-06-CA44-B2-LinuxServer | Select-Object Name,@{label='Taille';expression={$_.Length}},@{label='Taille Mo';expression={$_.Length/1MB -as [float]}}
+Get-ChildItem \\SYSLAB-SVNAS\EXPORT-VM\2021-06-CA44-B2-LinuxServer | Select-Object Name,@{label='Taille';expression={$_.Length}},@{label='Taille Mo';expression={$_.Length/1MB -as [float]}} | Sort-Object -Property "Taille Mo" -Descending
+# Liste des alias
+Get-Alias
+# Liste des alias de la commande get-childItem
+Get-Alias -Definition Get-ChildItem
+----
+
+== Exemple 3
+[source, powershell]
+----
+# Affichage aide complète commande Get-Alias (ne donnera une aide comlète que si l'aide a été téléchargée --> update-help)
+Get-Help Get-Alias -Full
+# Mise à jour de l'aide en Anglais
+Update-Help -UICulture en-US
+# Mise à jour de l'aide en Français
+Update-Help -UICulture fr-FR
+# Mise à jour de l'aide en anglais depuis un dépot local
+Update-Help -UICulture en-US -SourcePath \\Chemin\vers\le\serveur\et\le\dossier -Credential "Utilisateur"
+# Exemples d'utilisation de la commande Get-Help
+Get-Help Get-Help -Examples
+# Liste de toutes les aides sur les concepts PowerShell (about)
+Get-Help about_*
+# Affichage de l'aide sur les alias dans une fenêtre déportée (rechercher dans l'aide de la fenêtre déportée pour des éléments spécifiques)
+Get-Help about_aliases -ShowWindow
+# trouver et afficher historique
+Get-Command -name *history*
+Get-History
+# Variable pour modifier taille max historique 
+Get-Help about_History
+$MaximumHistoryCount = 8192
+----
+
+== Exemple 4
+[source, powershell]
+----
+
 ----
