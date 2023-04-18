@@ -68,7 +68,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 Fonctionnement ordinateur
 
-==Virtualisation
+== Virtualisation
 
 * OBE = Out of the be experience
 BSAN
