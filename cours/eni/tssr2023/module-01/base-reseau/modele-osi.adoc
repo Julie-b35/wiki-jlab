@@ -72,6 +72,38 @@ image::/images/cours/eni/tssr2023/base-reseau/ex-communication-3.png[ex-communic
 
 === Couche Physique
 
+****
+C'est une connexion physique entre les noeuds réseau.
+
+Connexion garentie par la carte réseau: 
+
+* La carte réseau est présente sur la couche 1 & 2 du modèle OSI:
+** Couche 1 : Connectique et modulation des données
+** Couche 2 : Adresse Physique (MAC)
+****
+
+image::/images/cours/eni/tssr2023/base-reseau/couche-physique-2.png[couche-physique-2.png]
+
+image::/images/cours/eni/tssr2023/base-reseau/couche-physique-3.png[couche-physique-3.png]
+
+image::/images/cours/eni/tssr2023/base-reseau/couche-physique-4.png[couche-physique-4.png]
+
+=== Couche de liason
+
+****
+* Adresse physique d'un noeud réseau
+** Adresse MAC gérée par OUI (Organizationally Unique Identifier)
+*** 48 bits hexadécimaux (6 octets)
+* Contrôle d'erreur (CRC control ...)
+** Cyclic Redundancy Check
+** Garantir la fiabilité de la trame
+****
+
+image::/images/cours/eni/tssr2023/base-reseau/couche-liason-1.png[couche-liason-1.png]
+
+==== Les protocoles
+
+
 
 * *Protocole ARP* : Permet de récupérer l'adresse MAC des machines
 * *Ping* : Permet de tester si la machine
@@ -80,6 +112,7 @@ image::/images/cours/eni/tssr2023/base-reseau/ex-communication-3.png[ex-communic
 * *tracert - traceroute*
 * *WAN*  : Internet
 * *Limite ports* : 65 536
+* OUI (Organizationally Unique Identifier)
 
 === Encapsulation
 
