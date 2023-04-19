@@ -32,3 +32,16 @@ Fujitsu
 * constrituer de deux chose une propriété et une méthode
 * feutre = caractéristrique + 
 * ex: `Get-Service -Name Spooler | Get-Member | Select-Object Name,MemberType`
+
+== Gestion des disque
+
+* Fat32 4GO Max (File Allocation Table)
+* ReFS (Resiliant File System) -> présent dans le cloud
+** Évolution de NTFS
+** Taille des volumes quasi illimité 
+** correction proactive des erreur
+
+image::/partition.png[partition.png]
+
+== Les utilisateur et les gorupes
+
