@@ -14,6 +14,8 @@
 * La commande `Get-Command -name *printer*`
 * La commande `Get-Member` Récupère les proprité et les méthode d'un objet
 * La commande `Get-Verb` affiche les verbe courant
+* La commande `sysdm.cpl` Affciher les propriété système
+
 
 == Serveur
 
@@ -45,3 +47,10 @@ image::/partition.png[partition.png]
 
 == Les utilisateur et les gorupes
 
+* SAM = Secure Account Manager
+* Ad = Ad local on
+* Azure AD connect
+* Azure AD DS
+
+Se renseigner sur les charte utilisateur
+UID + SID = jeton d'accès
