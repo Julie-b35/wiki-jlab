@@ -1,0 +1,14 @@
+== header
+
+----
+# Pour entre dans le logiciel dikpart
+diskpart
+#Pour lister les disque
+list disk
+#Pour sélectionner le 3ème disque
+select disk 3
+#Crée une partition sur le reste du disque
+create partition primary
+# Formatage du disque
+format FS=NTFS LABEL="DISKPART" QUICK
+----
