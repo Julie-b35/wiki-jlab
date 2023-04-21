@@ -1,0 +1,14 @@
+= Note sur Client Windows
+
+== Point à retenir
+
+* Accès carte réseaux -> via la commande : `*ncpa.cpl*`
+
+
+== Gestion du réseau et du Parefeu
+
+=== Accès Centre réseau & partage
+
+image::/images/notes/eni/tssr/02.png[02.png]
+
+=== Configuration de la carte réseau
