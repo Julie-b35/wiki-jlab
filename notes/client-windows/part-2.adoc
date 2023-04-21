@@ -15,6 +15,7 @@
 * La commande `Get-Member` Récupère les proprité et les méthode d'un objet
 * La commande `Get-Verb` affiche les verbe courant
 * La commande `sysdm.cpl` Affciher les propriété système
+* La commande `ncpa.cpl` 
 
 
 == Serveur
@@ -54,3 +55,13 @@ image::/partition.png[partition.png]
 
 Se renseigner sur les charte utilisateur
 UID + SID = jeton d'accès
+
+== Le réseau et pare-feu
+
+Routeur A
+192.168.10.0/24 203.0.113.2/30
+
+routeur B
+192.168.5.0/24 203.0.113.1/30
+
+Un pare-feu windows peut avoir plusieur IP
