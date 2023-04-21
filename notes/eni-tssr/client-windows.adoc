@@ -2,10 +2,10 @@
 
 == Point à retenir
 
-* Accès carte réseaux -> via la commande : `*ncpa.cpl*`
+* Accès carte réseaux -> via la commande : link:/lexique/N/ncpa-cpl[`*ncpa.cpl*`]
 * Configuration Carte réseau :
 ** On y configure link:/lexique/I/IP[*Adresse IP*], link:/lexique/R/Routeur[*Passerelle*] et link:lexique/S/serveur-dns[*Serveur DNS*]
-** La carte réseau obtient automatiquement une adresse link:/lexique/A/APIPA[*APIPA*] *169.254.0.0/16* si celle-ci est configuré en dynamique et que le serveur DHCP est injoignable.
+** La carte réseau obtient automatiquement une adresse link:/lexique/A/APIPA[*APIPA*] *169.254.0.0/16* si celle-ci est configuré en dynamique et que le link:/lexique/S/serveur-dhcp[serveur DHCP] est injoignable.
 
 
 == Gestion du réseau et du Parefeu
