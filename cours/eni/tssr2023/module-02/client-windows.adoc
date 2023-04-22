@@ -12,7 +12,7 @@ Notes : link:/notes/eni-tssr/client-windows[Note Client Windows]
 * Module 04 - 
 * Module 05 - Les utilisateurs et les groupes
 * link:acl[Module 06 - Les sécurité NTFS et les ACL (Access Control List)]
-* link:network-firewall[Module 07 - Les sécurité NTFS et les ACL (Access Control List)]
+* link:network-firewall[Module 07 - La gestion du réseau et du pare-feu]
 
 == Module 7
 
