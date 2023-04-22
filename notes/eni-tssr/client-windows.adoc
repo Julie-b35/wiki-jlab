@@ -38,12 +38,6 @@ IMPORTANT: Je conseil de crée un groupe "*DL_Administrateur_RW*" et d'y mettre 
 * Si touts serveur est en écoute par défaut il n'y a pas grand chose à faire, en revenche en cas de modification du port d'écoute, il va falloir certainement créer une règle personalisé.
 * Gérer le pare-feu avec link:/memo/commands/Windows/power-shell/sample/firewal[PowerShell]
 
-==== TP
-
-link:/procedures/eni-tssr/client-windows/gestion-acl[TP : gestion ACL]
-
-
-
-==== TP
-
-link:/procedures/eni-tssr/client-windows/network-firewall[TP : Réseau/Parefeu]
+== TP
+link:/procedures/eni-tssr/client-windows/gestion-acl[gestion ACL],
+link:/procedures/eni-tssr/client-windows/network-firewall[Réseau/Parefeu]
