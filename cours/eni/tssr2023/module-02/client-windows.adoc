@@ -4,7 +4,7 @@ Formateur : Mickaël BAUDET
 
 Formateur remplaçant : Nicolas Laurent
 
-Notes : link:/notes/eni-tssr/client-windows[Note Client Windows]
+Notes -> link:/notes/eni-tssr/client-windows[Note Client Windows]
 
 == Présentation du cours
 === Objectifs
