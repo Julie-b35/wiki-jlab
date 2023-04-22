@@ -1,6 +1,6 @@
 = Client Windows
 
-Formateur : 
+Formateur : Mickaël BAUDET
 
-Formateur remplaçant : 
+Formateur remplaçant : Nicolas Laurent
 
