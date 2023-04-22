@@ -7,6 +7,10 @@
 * la gestion des acl n'est faisable uniquement si le système de fichier est en NTFS
 * *DACL* : Discretionary Access Control Liste
 * *ACE* : Access Control Entry
+* Gestion des ACL via link:/memo/commands/Windows/power-shell/sample/acl[PowerShell]
+
+IMPORTANT: Je conseil de crée un groupe "*DL_Administrateur_RW*" et d'y mettre les admin autorisé à modifié les fichiers, car étant donnée que l'explorateur est lancé en mode *Utilisateurs* ils risquent d'avoir des problèmes sur des éventuels modifications de fichiers. A moins de lancer l'explorateur en mode admin directement.
+
 
 === Configuration réseau
 
@@ -32,8 +36,6 @@
 * Désactiver le pare-feu si une règle empeche le trafic à des fin de diagnostique.
 * Si touts serveur est en écoute par défaut il n'y a pas grand chose à faire, en revenche en cas de modification du port d'écoute, il va falloir certainement créer une règle personalisé.
 * Gérer le pare-feu avec link:/memo/commands/Windows/power-shell/sample/firewal[PowerShell]
-
-IMPORTANT: Je conseil de crée un groupe "*DL_Administrateur_RW*" et d'y mettre les admin autorisé à modifié les fichiers, car étant donnée que l'explorateur est lancé en mode *Utilisateurs* ils risquent d'avoir des problèmes sur des éventuels modifications de fichiers. A moins de lancer l'explorateur en mode admin directement.
 
 == La sécurité NTFS et les ACL
 
