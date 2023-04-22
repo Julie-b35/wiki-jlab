@@ -2,11 +2,27 @@
 
 == Point à retenir
 
+=== Configuration réseau
 * Accès carte réseaux -> via la commande : link:/lexique/N/ncpa-cpl[`*ncpa.cpl*`]
 * Configuration Carte réseau :
 ** On y configure link:/lexique/I/IP[*Adresse IP*], link:/lexique/R/Routeur[*Passerelle*] et link:lexique/S/serveur-dns[*Serveur DNS*]
 ** La carte réseau obtient automatiquement une adresse link:/lexique/A/APIPA[*APIPA*] *169.254.0.0/16* si celle-ci est configuré en dynamique et que le link:/lexique/S/serveur-dhcp[serveur DHCP] est injoignable.
+* La carte réseau peut être paramétré en ligne de commande : 
+** Pour récupérer la configuration détaillé :
+*** ipconfig /all
+** Pour définire une ip statique :
+*** `netsh interface ipv4 set address "Ethernet0" static 10.130.202.16 255.255.0.0 10.130.255.254`
+** pour reconfigurer en stratique
+*** `netsh interface ipv4 set address "Ethernet0" dhcp`
+* ou via le PowerShell:
+** link:/memo/commands/Windows/power-shell/sample/get-netconfig[voir configuration], link:/memo/commands/Windows/power-shell/sample/set-netconfig-static[Définir une config statique], link:/memo/commands/Windows/power-shell/sample/set-netconfig-dhcp[Définir une config dynamique]
+* Rappel Commande utile :
+** link:/lexique/I/ipconfig[`*ipconfig*`]
+** link:/lexique/P/ping[`*ping*`]
+** link:/lexique/T/tracert[`*tracert*`]
+** link:/lexique/N/Nslookup[`*nslookup*`]
 
+=== Configuration Parefeu
 
 == Gestion du réseau et du Parefeu
 
@@ -22,3 +38,4 @@ image::/images/notes/eni/tssr/client-windows/04.png[04.png]
 
 
 image::/images/notes/eni/tssr/client-windows/05.png[05.png]
+
