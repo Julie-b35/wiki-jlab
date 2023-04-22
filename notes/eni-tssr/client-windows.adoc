@@ -21,8 +21,11 @@
 ** link:/lexique/P/ping[`*ping*`]
 ** link:/lexique/T/tracert[`*tracert*`]
 ** link:/lexique/N/Nslookup[`*nslookup*`]
+** link:/lexique/N/netsh[`*netsh*`]
 
 === Configuration Parefeu
+
+* Accès au Parefeu depuis la commande : link:lexique/F/firwall-cpl[`*firwall.cpl*`]
 
 == Gestion du réseau et du Parefeu
 
@@ -39,3 +42,8 @@ image::/images/notes/eni/tssr/client-windows/04.png[04.png]
 
 image::/images/notes/eni/tssr/client-windows/05.png[05.png]
 
+=== Configuration du Parefeu
+
+image::/images/notes/eni/tssr/client-windows/06.png[06.png]
+
+image::/images/notes/eni/tssr/client-windows/07.png[07.png]
