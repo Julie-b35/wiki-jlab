@@ -4,6 +4,8 @@ Formateur : Mickaël BAUDET
 
 Formateur remplaçant : Nicolas Laurent
 
+Notes : link:/notes/eni-tssr/client-windows[Note Client Windows]
+
 == Module 05 - Les utilisateurs et les groupes
 
 == Module 06 - Les sécurité NTFS et les ACL (Access Control List)
