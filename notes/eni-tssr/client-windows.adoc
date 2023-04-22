@@ -11,6 +11,7 @@
 
 IMPORTANT: Je conseil de crée un groupe "*DL_Administrateur_RW*" et d'y mettre les admin autorisé à modifié les fichiers, car étant donnée que l'explorateur est lancé en mode *Utilisateurs* ils risquent d'avoir des problèmes sur des éventuels modifications de fichiers. A moins de lancer l'explorateur en mode admin directement.
 
+include::/memo/commands/Windows/power-shell[]
 
 === Configuration réseau
 
