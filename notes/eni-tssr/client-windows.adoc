@@ -2,7 +2,14 @@
 
 == Point à retenir
 
+=== Sécurité NTFS et les ACL (Access Control List)
+
+* la gestion des acl n'est faisable uniquement si le système de fichier est en NTFS
+* *DACL* : Discretionary Access Control Liste
+* *ACE* : Access Control Entry
+
 === Configuration réseau
+
 * Accès carte réseaux -> via la commande : link:/lexique/N/ncpa-cpl[`*ncpa.cpl*`]
 * Configuration Carte réseau :
 ** On y configure link:/lexique/I/IP[*Adresse IP*], link:/lexique/R/Routeur[*Passerelle*] et link:lexique/S/serveur-dns[*Serveur DNS*]
@@ -17,15 +24,35 @@
 * ou via le PowerShell:
 ** link:/memo/commands/Windows/power-shell/sample/get-netconfig[voir configuration], link:/memo/commands/Windows/power-shell/sample/set-netconfig-static[Définir une config statique], link:/memo/commands/Windows/power-shell/sample/set-netconfig-dhcp[Définir une config dynamique]
 * Rappel Commande utile :
-** link:/lexique/I/ipconfig[`*ipconfig*`]
-** link:/lexique/P/ping[`*ping*`]
-** link:/lexique/T/tracert[`*tracert*`]
-** link:/lexique/N/Nslookup[`*nslookup*`]
-** link:/lexique/N/netsh[`*netsh*`]
+** link:/lexique/I/ipconfig[`*ipconfig*`], link:/lexique/P/ping[`*ping*`], link:/lexique/T/tracert[`*tracert*`], link:/lexique/N/Nslookup[`*nslookup*`], link:/lexique/N/netsh[`*netsh*`]
 
-=== Configuration Parefeu
+=== Configuration Pare-feu
 
-* Accès au Parefeu depuis la commande : link:lexique/F/firwall-cpl[`*firwall.cpl*`]
+* Accès au Pare-feu depuis la commande : link:lexique/F/firwall-cpl[`*firwall.cpl*`]
+* Désactiver le pare-feu si une règle empeche le trafic à des fin de diagnostique.
+* Si touts serveur est en écoute par défaut il n'y a pas grand chose à faire, en revenche en cas de modification du port d'écoute, il va falloir certainement créer une règle personalisé.
+* Gérer le pare-feu avec link:/memo/commands/Windows/power-shell/sample/firewal[PowerShell]
+
+IMPORTANT: Je conseil de crée un groupe "*DL_Administrateur_RW*" et d'y mettre les admin autorisé à modifié les fichiers, car étant donnée que l'explorateur est lancé en mode *Utilisateurs* ils risquent d'avoir des problèmes sur des éventuels modifications de fichiers. A moins de lancer l'explorateur en mode admin directement.
+
+== La sécurité NTFS et les ACL
+
+image::/images/notes/eni/tssr/client-windows/08.png[08.png]
+
+image::/images/notes/eni/tssr/client-windows/09.png[09.png]
+
+image::/images/notes/eni/tssr/client-windows/10.png[10.png]
+
+image::/images/notes/eni/tssr/client-windows/11.png[11.png]
+
+image::/images/notes/eni/tssr/client-windows/12.png[12.png]
+image::/images/notes/eni/tssr/client-windows/13.png[13.png]
+image::/images/notes/eni/tssr/client-windows/14.png[14.png]
+image::/images/notes/eni/tssr/client-windows/15.png[15.png]
+
+==== TP
+
+link:/procedures/eni-tssr/client-windows/gestion-acl[TP : gestion ACL]
 
 == Gestion du réseau et du Parefeu
 
@@ -42,8 +69,13 @@ image::/images/notes/eni/tssr/client-windows/04.png[04.png]
 
 image::/images/notes/eni/tssr/client-windows/05.png[05.png]
 
+
 === Configuration du Parefeu
 
 image::/images/notes/eni/tssr/client-windows/06.png[06.png]
 
 image::/images/notes/eni/tssr/client-windows/07.png[07.png]
+
+==== TP
+
+link:/procedures/eni-tssr/client-windows/network-firewall[TP : Réseau/Parefeu]
