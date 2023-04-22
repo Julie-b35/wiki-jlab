@@ -38,23 +38,6 @@ IMPORTANT: Je conseil de crée un groupe "*DL_Administrateur_RW*" et d'y mettre 
 * Si touts serveur est en écoute par défaut il n'y a pas grand chose à faire, en revenche en cas de modification du port d'écoute, il va falloir certainement créer une règle personalisé.
 * Gérer le pare-feu avec link:/memo/commands/Windows/power-shell/sample/firewal[PowerShell]
 
-
-
-== La sécurité NTFS et les ACL
-
-image::/images/notes/eni/tssr/client-windows/08.png[08.png]
-
-image::/images/notes/eni/tssr/client-windows/09.png[09.png]
-
-image::/images/notes/eni/tssr/client-windows/10.png[10.png]
-
-image::/images/notes/eni/tssr/client-windows/11.png[11.png]
-
-image::/images/notes/eni/tssr/client-windows/12.png[12.png]
-image::/images/notes/eni/tssr/client-windows/13.png[13.png]
-image::/images/notes/eni/tssr/client-windows/14.png[14.png]
-image::/images/notes/eni/tssr/client-windows/15.png[15.png]
-
 ==== TP
 
 link:/procedures/eni-tssr/client-windows/gestion-acl[TP : gestion ACL]
