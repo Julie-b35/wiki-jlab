@@ -42,27 +42,7 @@ IMPORTANT: Je conseil de crée un groupe "*DL_Administrateur_RW*" et d'y mettre 
 
 link:/procedures/eni-tssr/client-windows/gestion-acl[TP : gestion ACL]
 
-== Gestion du réseau et du Parefeu
 
-=== Accès Centre réseau & partage
-
-image::/images/notes/eni/tssr/client-windows/02.png[02.png]
-
-=== Configuration de la carte réseau
-
-image::/images/notes/eni/tssr/client-windows/03.png[03.png]
-
-image::/images/notes/eni/tssr/client-windows/04.png[04.png]
-
-
-image::/images/notes/eni/tssr/client-windows/05.png[05.png]
-
-
-=== Configuration du Parefeu
-
-image::/images/notes/eni/tssr/client-windows/06.png[06.png]
-
-image::/images/notes/eni/tssr/client-windows/07.png[07.png]
 
 ==== TP
 
