@@ -1,7 +1,9 @@
-== Module 06 - Les sécurité NTFS et les ACL (Access Control List)
+= Client Windows
 
 * Module précédent -> link:../client-windows[Utilisateur & groupe]
 * Module suivant -> link:../client-windows[Gestion réseau & pare-feu]
+
+== Module 06 - Les sécurité NTFS et les ACL (Access Control List)
 
 image::/images/cours/eni/tssr/client-windows/acl/01.png[01.png]
 image::/images/cours/eni/tssr/client-windows/acl/02.png[02.png]
