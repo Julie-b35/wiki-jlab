@@ -1,7 +1,7 @@
 = Client Windows
 
 * Module précédent -> link:../client-windows/acl[Module 06 - Les sécurité NTFS et les ACL (Access Control List)]
-* Module suivant -> link:../client-windows[Gestion réseau & pare-feu]
+* Module suivant -> link:../client-windows/partage-ressource[Module 08 - Le partage de ressources]
 
 == Module 07 - La gestion du réseau et du pare-feu]
 
