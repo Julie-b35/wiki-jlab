@@ -1,5 +1,8 @@
 = Client Windows
 
+|===
+| Précedent | Retour cours | Suivant
+|===
 * Module précédent -> link:../client-windows/users-groups[Module 05 - Les utilisateurs et les groupes]
 * Module suivant -> link:../client-windows/network-firewall[Module 07 - La gestion du réseau et du pare-feu]
 
