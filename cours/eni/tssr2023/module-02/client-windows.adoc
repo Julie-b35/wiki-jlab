@@ -27,6 +27,7 @@ image::/images/cours/eni/tssr/client-windows/acl/10.png[10.png]
 
 == Module 07 - 
 
+link:network-firewall[Module 06 - Les sécurité NTFS et les ACL (Access Control List)]
 
 image::/images/cours/eni/tssr/client-windows/network-firewall/01.png[01.png]
 image::/images/cours/eni/tssr/client-windows/network-firewall/02.png[02.png]
