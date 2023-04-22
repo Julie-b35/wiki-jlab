@@ -1,5 +1,7 @@
 = Note sur Client Windows
 
+Cours : link:/cours/eni/tssr2023/module-02/client-windows[Client-Windows]
+
 == Point à retenir
 
 === Sécurité NTFS et les ACL (Access Control List)
@@ -35,6 +37,8 @@ IMPORTANT: Je conseil de crée un groupe "*DL_Administrateur_RW*" et d'y mettre 
 * Désactiver le pare-feu si une règle empeche le trafic à des fin de diagnostique.
 * Si touts serveur est en écoute par défaut il n'y a pas grand chose à faire, en revenche en cas de modification du port d'écoute, il va falloir certainement créer une règle personalisé.
 * Gérer le pare-feu avec link:/memo/commands/Windows/power-shell/sample/firewal[PowerShell]
+
+
 
 == La sécurité NTFS et les ACL
 
