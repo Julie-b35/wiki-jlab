@@ -1,0 +1,8 @@
+= Client Windows
+
+* Module précédent -> link:../client-windows/maintenances[Module 10 - La maintenance du système]
+* Module suivant -> link:../client-windows/wds[Module 12 - Introduction à la capture et au déploiement d'image]
+
+Notes -> link:/notes/eni-tssr/client-windows[Note Client Windows]
+
+== Module 11 - Plus loin avec PowerShell
