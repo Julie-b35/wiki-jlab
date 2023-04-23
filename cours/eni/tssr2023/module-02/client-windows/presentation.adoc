@@ -7,11 +7,10 @@ Notes -> link:/notes/eni-tssr/client-windows[Note Client Windows]
 
 == Module 01 - Les systèmes d'exploitation et Microsoft Windows 10
 
-=== Source : 
 
+[NOTES]
+====
  * https://www.futura-sciences.com/tech/definitions/informatique-systeme-exploitation-11820/
  * https://www.journaldunet.fr/web-tech/dictionnaire-du-webmastering/1203371-systeme-d-exploitation-definition-traduction-et-acteurs/*
  * slides fournis pendant les cours à l'link:https://www.eni-ecole.fr/[ENI]
- 
- 
-=== Slides :
+====
