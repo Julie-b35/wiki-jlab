@@ -1,0 +1,8 @@
+= Client Windows
+
+* Module précédent -> link:../client-windows/powershell[Module 11 - Plus loin avec PowerShell]
+* Module suivant -> link:../client-windows/gpedi[Module bonus - Les stratégie de groupes local]
+
+Notes -> link:/notes/eni-tssr/client-windows[Note Client Windows]
+
+== Module 12 - Introduction à la capture et au déploiement d'image
