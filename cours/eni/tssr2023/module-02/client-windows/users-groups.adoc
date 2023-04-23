@@ -3,5 +3,6 @@
 * Module précédent -> link:../client-windows/stockage[Module 04 - Gestion du stockage]
 * Module suivant -> link:../client-windows/acl[Module 06 - Les sécurité NTFS et les ACL (Access Control List)]
 
+Notes -> link:/notes/eni-tssr/client-windows[Note Client Windows]
 
 == Module 05 - Les utilisateurs et les groupes
