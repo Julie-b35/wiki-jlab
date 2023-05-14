@@ -1,0 +1,50 @@
+== Projet Wiki
+
+Projet création d'un wiki personnel contenant toutes mes notes, procédures, cours et projets.
+
+Ce wiki est hébergé sur un vps de chez OVH.
+
+Le wiki sera lancé depuis un docker générer par mes soins
+
+== Prérequis
+
+* [Mise à jour système]
+* [un os personalisé]
+* link:procedures/install-docker[docker installé]
+
+== Installation Prérequis
+
+Configuration Réseau en ipFixe si nécessaire
+[source, shell]
+----
+# The loopback network interface
+auto lo
+iface lo inet loopback
+ 
+# The primary network interface
+auto enp0s5
+iface enp0s5  inet static
+ address 10.130.101.73
+ netmask 255.255.0.0
+ gateway 10.130.255.254
+ dns-domain ad.campus-eni.fr
+ dns-nameservers 10.128.0.3
+----
+
+Redémarage du service networking
+[source, shell]
+----
+sudo systemctl restart networking.service
+sudo systemctl status networking.service
+----
+
+
+Mise à jour système
+[source, shell]
+----
+#>apt update -y && apt upgrade -y
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg
+
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+----
