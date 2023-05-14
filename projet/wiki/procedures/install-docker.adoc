@@ -58,4 +58,6 @@ Ajouter le groupe `docker` à l'utilisatuer principal
 sudo usermod -aG docker user
 ----
 
-== Install docker composer
+== Fin
+
+Fin de process
