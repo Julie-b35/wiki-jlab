@@ -15,14 +15,16 @@ sudo apt remove docker docker-engine docker.io containerd runc
 
 == Installation depuis le dépot 'docker'
 
-1. Mettre à jour l'index des paquets `apt`, et installer des paquets nécessaire à l'utilisation d'un dépot sécuriser sous HTTPS
+* 1. Mettre à jour l'index des paquets `apt`, et installer des paquets nécessaire à l'utilisation d'un dépot sécuriser sous HTTPS
+
 [source,shell]
 ----
 sudo apt update
 sudo apt install ca-certificates curl gnupg
 ----
 
-2. Ajouter la cef GPG officiel de Docker
+* 2. Ajouter la cef GPG officiel de Docker
+
 [source,shell]
 ----
 sudo install -m 0755 -d /etc/apt/keyrings
@@ -30,7 +32,7 @@ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o 
 sudo chmod a+r /etc/apt/keyrings/docker.gpg
 ----
 
-3. Utiliser la commande si dessous pour mettre en place le dépot.
+* 3. Utiliser la commande si dessous pour mettre en place le dépot.
 
 [source,shell]
 ----
@@ -43,13 +45,15 @@ echo \
 == Insallation Moteur de Docker
 
 Installer la dernière version stable docker
+
 [source,shell]
 ----
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ----
 
 Ajouter le groupe `docker` à l'utilisatuer principal
-[sourc, shell]
+
+[source, shell]
 ----
 sudo usermod -aG docker user
 ----
