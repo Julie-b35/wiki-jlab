@@ -1,8 +1,0 @@
-= Client Windows
-
-* Module précédent -> link:../client-windows/pilotes-imprimantes[Module 09 - Les pilotes et les imprimantes]
-* Module suivant -> link:../client-windows/powershell[Module 11 - Plus loin avec PowerShell]
-
-Notes -> link:/notes/eni-tssr/client-windows[Note Client Windows]
-
-== Module 10 - La maintenance du système
