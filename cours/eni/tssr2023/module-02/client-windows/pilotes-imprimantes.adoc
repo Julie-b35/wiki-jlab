@@ -1,9 +1,0 @@
-= Client Windows
-
-
-* Module précédent -> link:../client-windows/partage-ressource[Module 08 - Le partage de ressources]
-* Module suivant -> link:../client-windows/maintenances[Module 10 - La maintenance du système]
-
-Notes -> link:/notes/eni-tssr/client-windows[Note Client Windows]
-
-== Module 09 - Les pilotes et les imprimantes
