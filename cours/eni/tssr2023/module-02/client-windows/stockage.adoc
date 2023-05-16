@@ -1,9 +1,0 @@
-= Client Windows
-
-
-* Module précédent -> link:../client-windows/interaction[Module 03 - Interagir avec Windows 10]
-* Module suivant -> link:../client-windows/users-groups[Module 05 - Les utilisateurs et les groupes]
-
-Notes -> link:/notes/eni-tssr/client-windows[Note Client Windows]
-
-== Module 04 - Gestion du stockage
