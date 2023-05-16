@@ -1,9 +1,0 @@
-= Client Windows
-
-
-* Module précédent -> link:../client-windows/presentation[Module 01 - Les systèmes d'exploitation et Microsoft Windows 10]
-* Module suivant -> link:../client-windows/interaction[Module 03 - Interagir avec Windows 10]
-
-Notes -> link:/notes/eni-tssr/client-windows[Note Client Windows]
-
-== Module 02 - Installation du système d'exploitation Windows 10
